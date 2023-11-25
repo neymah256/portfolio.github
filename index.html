@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/72952e2bf3.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/LOGO.png" class="LOGO">
+                <ul>
+                    <li><a href="#">home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="header-text">
+                <p>UX/UI Designer</p>
+                <h1>Hi, i am <span>neymah</span> <br> from uganda</h1>
+            </div>
+        </div>
+    </div>
+    <!---about--->
+    <div id="about">
+        <div class="container">
+
+            <div class="raw">
+                <div class="about-col-1">
+                    <img src="images/me.png">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>
+                        Hello! I'm neymah, a passionate and creative web designer dedicated to crafting <br>engaging and functional online experiences. With a keen eye for aesthetics and a commitment to user-centric design, I thrive on turning ideas into
+                        visually stunning websites.
+                    </p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link " onclick="opentab('Skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="Skills">
+                        <ul>
+                            <li><span>UI/UX</span><br>Desgning Web/App interfaces</li>
+                            <li><span>Web development</span><br> Web/App development</li>
+                            <li><span>App development</span><br>building Android/ios apps</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2023</span><br>internship mega teams agency</li>
+                            <li><span>2022</span><br> psalms food industry</li>
+                            <li><span>2021</span><br>data entrant ARC</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2021-CURRENT</span><br>Bachelors in information technology</li>
+                            <li><span>2017-2018</span><br>A level certificate </li>
+                            <li><span>2013-2016</span><br>O level certificate</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+    <!---services-->
+    <div id="services">
+        <section class="st-gray-bg">
+            <div class="st-heigt-b100 st-height-lg-b80"></div>
+            <div class="container">
+                <div class="st-section-heading st-syle1">
+                    <h4 class="st-section-heading-title">My Services</h4>
+                    <h2 class="st-section-heading-subtitle">My Services</h2>
+                </div>
+                <div class="st-heigt-b25 st-height-lg-b25"></div>
+        </section>
+
+
+        <h1 class="sub-title"></h1>
+        <div class="services-list">
+
+
+
+            <div>
+
+                <h2>web Design</h2>
+                <p>User Experience (UX) Design,Responsive Design,Typography,ETC</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <h2>
+                    <UI/UX>UI/UX</h2>
+                <p> UX, visual design, typography,color schemes,lay out and spacing etc<br> UI, user research,information architecture,interface design etc</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <h2>App Design</h2>
+                <p>user interface (UI) design, user experience (UX) design, and overall functionality. user interface (UI) design, user experience (UX) design, and overall functionality. Here's a step-by-step guide to help you in the app design</p>
+                <a href="#">Learn more</a>
+            </div>
+        </div>
+        </div>
+    </div>
+    <!---portfolio-->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/download (10).jpg">
+                    <div class="layer">
+                        <h3>social media APP</h3>
+                        <P>the app connects you to the talented people around the world. download it from play store</P>
+
+                    </div>
+
+                </div>
+                <div class="work">
+                    <img src="images/download (11).jpg">
+                    <div class="layer">
+                        <h3> MUSIC APP</h3>
+                        <P>the app connects you to the talented people around the world. download it from play store</P>
+
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/download (13).jpg">
+                    <div class="layer">
+                        <h3>Mobile APP</h3>
+                        <P>the app connects you to the talented people around the world. download it from play store</P>
+
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">see more</a>
+        </div>
+    </div>
+    <!--contact-->
+    <div id="contact">
+        <div class="container">
+            <div class="raw">
+
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact me</h1>
+                    <p>neymahkamir@gmail.com</p>
+                    <p>+256763137300</p>
+                    <a href="images/MY CV.docx" download class="btn btn2">download CV</a>
+                </div>
+
+                <div class="contact-right">
+                    <form>
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="Your email" required>
+                        <textarea name="Message" rows="6" placeholder="your message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+
+
+
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>copyright @ neymah.k.amir</p>
+        </div>
+    </div>
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links")
+        var tabcontents = document.getElementsByClassName("tab-contents")
+
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+</body>
+
+</html>
